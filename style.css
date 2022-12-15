@@ -7,6 +7,24 @@
 .navbar{
     height: 90px;
     width: 80% auto;
-    border-bottom: 10px solid;
+    border-bottom: 2px solid;
 
+}
+.navbar ul{
+    list-style: none;
+    text-emphasis: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.navbar ul li a{
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(0, 251, 255);
 }
