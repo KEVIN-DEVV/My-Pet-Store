@@ -56,3 +56,26 @@
     text-align: center;
     padding-top: 120px;
 }
+.submit_form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border:2px solid;
+    padding: 2rem;
+}
+
+input{
+    padding: .5rem;
+    margin: 10px;
+    border-radius: 12px;
+
+
+}
+
+button{
+    background: aqua;
+}
+
+.pet_card h3{
+  padding: 1rem;
+  text-align: center;
+}
