@@ -1,0 +1,12 @@
+*{
+    margin: 0pxm ;
+    padding: 0px;
+    background: #f9edd8;
+}
+
+.navbar{
+    height: 90px;
+    width: 80% auto;
+    border-bottom: 10px solid;
+
+}
