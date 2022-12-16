@@ -1,0 +1,29 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "petName": "Bella",
+      "url": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "price": 12000
+    },
+    {
+      "id": 2,
+      "petName": "Luna",
+      "url": "https://images.pexels.com/photos/9370681/pexels-photo-9370681.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": 19000
+    },
+    {
+      "id": 3,
+      "petName": "Coco",
+      "url": "https://images.pexels.com/photos/4178724/pexels-photo-4178724.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": 17000
+    },
+    {
+      "id": 4,
+      "petName": "Lola",
+      "url": "https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": 15000
+    }
+  
+  ]
+}
