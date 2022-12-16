@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,300&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <div class="navbar" id="home">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="">Service</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="">Service</a></li>
         </ul>
     </div>
     <div class="middle_page">
-    <h1>Care of your<br>Little pets</h1>
-     <img src="./assets/images/pexels-archibald-marajas-8727896.jpg" alt="pet"/>
+        <h1>Care of your<br>Little pets</h1>
+        <img src="./assets/images/pexels-archibald-marajas-8727896.jpg" alt="pet" />
     </div>
 
     <!-- About page -->
 
-   <div  class="about_page" id="about">
-      <h3>About us</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry. Lorem Ipsum has been the industry's standard dummy <br>text ever since the 1500s, when an unknown printer took a galley of<br> type and scrambled it to make a type specimen book. <br>It has survived not only five centuries,<br> but also the leap into electronic typesetting, <br>remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing<br> Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker <br>including versions of Lorem Ipsum.</p>
+    <div class="about_page" id="about">
+        <h3>About us</h3>
+        <p>This website is about pets <br>Do you have a pet you would wish to sell? <br> Just post the price and the
+            image of the pet and we will help you sell it<br>The prices vary depedning with the client<br>Just ensure
+            you insert a favorable price for everyone</p>
 
-   </div> 
-<!-- Make a post -->
+    </div>
+    <!-- Make a post -->
 
-   <div class="pet_card">
-    <h3>Add your pet</h3>
-    <form class="submit_form">
-        <input type="text", name="name", placeholder="pet name"/>
-        <input type="text", name="image", placeholder="image url"/>
-        <input type="number", name="price", placeholder="price"/>
-        <button>Submit</button>
-    </form>
+    <div class="pet_card">
+        <h3>Add your pet</h3>
+        <form class="submit_form">
+            <input type="text" , name="name" , placeholder="pet name" />
+            <input type="text" , name="image" , placeholder="image url" />
+            <input type="number" , name="price" , placeholder="price" />
+            <button id="submit_btn">Submit</button>
+        </form>
 
-   </div>
+    </div>
+
+    <!-- Fetch pets will be available here -->
+
+    <div id="pestcards">
+
+    </div>
 
 
 
     <script src="./index.js"></script>
 </body>
+
 </html>
