@@ -79,3 +79,14 @@ button{
   padding: 1rem;
   text-align: center;
 }
+#card img {
+    width: 400px;
+    height: 400px;
+}
+
+
+#pestcards{
+    display: flex;
+    justify-content: space-between;
+    
+}
